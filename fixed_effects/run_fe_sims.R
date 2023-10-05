@@ -11,8 +11,9 @@ test <- FALSE
 ## root dirs
 
 # data_root <- '/home/merms/Documents/Research/2020_tmb_v_inla/nigeria_objects'
-code_root <- '/home/merms/Documents/GitRepos/tmb_inla_comp/fixed_effects'
-outs_root <- '/home/merms/Documents/Research/2020_tmb_v_inla/fixed_effects'
+library('here')
+code_root <- here('fixed_effects')
+outs_root <- here('fixed_effects')
 outs_name <- ifelse(test, "test", NA) # append to outs_root for output dir. if NULL, code uses YYYY_MM_DD
 
 ## options for simulation. the factorial selection of all combos

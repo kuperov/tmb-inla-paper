@@ -10,8 +10,9 @@ test <- FALSE
 ## root dirs
 
 # data_root <- '/home/merms/Documents/Research/2020_tmb_v_inla/nigeria_objects'
-code_root <- '/home/merms/Documents/GitRepos/tmb_inla_comp/re_iid'
-outs_root <- '/home/merms/Documents/Research/2020_tmb_v_inla/re_iid'
+library(here)
+code_root <- here('re_iid')
+outs_root <- here('re_iid')
 outs_name <- ifelse(test, "test", NA) # append to outs_root for output dir. if NULL, code uses YYYY_MM_DD
 
 ## options for simulation. the factorial selection of all combos

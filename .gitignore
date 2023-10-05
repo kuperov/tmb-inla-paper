@@ -1,0 +1,7 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+re_iid/2023_10_04
+**/*.o
+**/*.so
